@@ -1,5 +1,8 @@
 @charset "UTF-8";
 
+html, body {
+    overflow-x: hidden;
+    }
 :root{
         --fonte-android: 'robo', 'cursive'   
     }
