@@ -31,7 +31,6 @@ html, body {
 
     #cabecalho {
         width:100%;
-        height:200px;
         padding-top: 30px;
         padding-bottom: 15px;
         text-align: center;
@@ -42,9 +41,11 @@ html, body {
     #cabecalho p{
         margin: auto;
         text-align: center;
+        font-size: clamp(1em, 2.2vw, 1.4em);
+        
     }
     #cabecalho h1{
-        font-size: 3em;
+         font-size: clamp(1.8em, 5vw, 3em);
     }
     #menu{
         padding: 8px 10px;
