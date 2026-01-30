@@ -53,8 +53,7 @@ html, body {
         justify-content: center;
         display: flex;
         flex-wrap: wrap;
-        row-gap:8px;
-        gap:10px;
+        row-gap:6px;
 
 
         
@@ -66,7 +65,7 @@ html, body {
         font-size: 16px;
         font-weight: bolder;
        transition-duration: .5s;
-       padding: 6px 10px;
+       padding: 6px 5px;
        white-space: nowrap;
     }
     #menu a:hover {
