@@ -53,6 +53,7 @@ html, body {
         justify-content: center;
         display: flex;
         flex-wrap: wrap;
+        row-gap:8px;
         gap:10px;
 
 
@@ -62,10 +63,11 @@ html, body {
         text-decoration: none;
         margin-right:15px;
         color:white;
-        font-size: 18px;
+        font-size: 16px;
         font-weight: bolder;
        transition-duration: .5s;
-       padding: 10px;
+       padding: 6px 10px;
+       white-space: nowrap;
     }
     #menu a:hover {
         text-decoration-line: underline;
